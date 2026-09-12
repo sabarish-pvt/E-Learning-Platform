@@ -56,21 +56,3 @@ elearning-platform/
 3. Open http://localhost:3000, sign in with `demo@student.com` / `demo1234`
    (from the seed script), and walk through: Courses → a Topic → Start quiz →
    Submit → Dashboard (watch the difficulty/mastery update).
-
-## Suggested internship report structure
-
-If you need a written report/documentation alongside this code, cover:
-1. Problem statement & objectives (from the project description)
-2. System architecture diagram (Next.js ↔ FastAPI ↔ PostgreSQL, + Cloudinary
-   and the ML model as side services)
-3. Database schema (see `backend/app/models.py` — this doubles as an ER model)
-4. The ML approach: features, model choice, the synthetic bootstrap dataset,
-   and how it's designed to be retrained on real data later
-   (`app/ml/train_model.py`)
-5. AI content generation approach and the offline fallback design
-6. API documentation (auto-generated at `/docs` once the backend is running)
-7. Screenshots of the running frontend
-8. Learnings / future improvements (e.g., spaced repetition, real-time
-   analytics dashboard for instructors, A/B testing difficulty thresholds)
-
-I can also generate that report as a Word document if you'd like — just ask.
